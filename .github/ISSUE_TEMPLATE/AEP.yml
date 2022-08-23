@@ -27,7 +27,7 @@ body:
       value: A clear and concise description of what the problem is. Ex. I am always frustrated when ... or The current functionality does not allow me to ...
     validations:
       required: false
-    - type: textarea
+  - type: textarea
     id: solution
     attributes:
       label: Describe the solution you would like to reach
@@ -44,7 +44,15 @@ body:
       placeholder: List them all!
     validations:
       required: true
-      
+ - type: textarea
+    id: testers
+    attributes:
+      label: Who will be participating in this AEP from your team?
+      description: Tell us the names of AVALaunch Alpha testers
+      placeholder: Provide email addresses
+      value: Give us email addresses of your voulenteers. Ex. yaroslav.zakahrov@raiffeisen.ua
+    validations:
+      required: true   
  - type: checkboxes
     id: Can this AEP be useful for other teams or domains?
     attributes:
