@@ -17,7 +17,7 @@ body:
       placeholder: Tell us what your AEP!
       value: I would like to suggest ... or In order to achieve A, I require B
     validations:
-      required: false
+      required: true
   - type: textarea
     id: problem
     attributes:
