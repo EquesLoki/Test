@@ -50,7 +50,7 @@ body:
       label: Who will be participating in this AEP from your team?
       description: Tell us the names of AVALaunch Alpha testers
       placeholder: Provide email addresses
-      value: Give us email addresses of your voulenteers. Ex. yaroslav.zakahrov@raiffeisen.ua
+      value: Give us email addresses of your voulenteers. Ex. yaroslav.zakahrov raiffeisen.ua
     validations:
       required: true
  - type: checkboxes
