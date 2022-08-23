@@ -23,7 +23,7 @@ body:
     attributes:
       label: Is your AEP related to a problem? Please describe it
       description: Get into details of what is causing the problem for you
-      placeholder: What is it?
+      placeholder: Describe it here
       value: A clear and concise description of what the problem is. Ex. I am always frustrated when ... or The current functionality does not allow me to ...
     validations:
       required: false
@@ -54,7 +54,7 @@ body:
     validations:
       required: true
  - type: checkboxes
-    id: Can this AEP be useful for other teams/domains?
+    id: Can this AEP be useful for other teams or domains?
     attributes:
       label: Do you think someone else can benefit from it?
       options:
