@@ -1,63 +1,62 @@
-name: AVALaunch Enhancement Proposal
-description: File an AEP
-title: "[AEP]: "
-labels: ["AEP", "enhancement"]
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        Please state your AEP below
-  - type: textarea
-    id: proposal
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
     attributes:
-      label: What is your enhancement or a feature request to the AVALaunch Platform?
-      description: Provide as many details to your AEP as possible
-      placeholder: Tell us what your AEP!
-      value: "I would like to suggest [...]" or "In order to achieve [...], I require [...]"
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
-  - type: textarea
-    id: problem
+  - type: dropdown
+    id: version
     attributes:
-      label: Is your AEP related to a problem? Please describe it
-      description: Get into details of what is causing the problem for you
-      placeholder: What is it?
-      value: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] or The current functionality does not allow me to [...]
-    validations:
-      required: true
-   - type: textarea
-    id: solution
-    attributes:
-      label: Describe the solution you'd like to reach
-      description: Explaine what is the best or acceptable solution for you and your team
-      placeholder: What is it?
-      value: A clear and concise description of what you want to happen.
-    validations:
-      required: true      
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Are there any alternative to your AEP?
-      description: Provide the list of alternatives
-      placeholder: List the all!
-    validations:
-      required: true
-  - type: textarea
-    id: testers
-    attributes:
-      label: Who will be participating in this AEP from your team?
-      description: Tell us the names of AVALaunch Alpha testers
-      placeholder: Provide email addresses
-      value: Give us email addresses of your voulenteers. Ex. yaroslav.zakahrov@raiffeisen.ua
-    validations:
-      required: true
- - type: checkboxes
-    id: Can this AEP be useful for other teams/domains?
-    attributes:
-      label: Do you think someone else can benefit from it?
+      label: Version
+      description: What version of our software are you running?
       options:
-        - label: YES
-        - label: Not, it's only for my pleasure       
-        - label: I don't know
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
