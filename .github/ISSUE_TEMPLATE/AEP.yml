@@ -18,4 +18,12 @@ body:
       value: I would like to suggest ... or In order to achieve A, I require B
     validations:
       required: false
-  
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your AEP related to a problem? Please describe it
+      description: Get into details of what is causing the problem for you
+      placeholder: What is it?
+      value: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] or The current functionality does not allow me to [...]
+    validations:
+      required: true  
