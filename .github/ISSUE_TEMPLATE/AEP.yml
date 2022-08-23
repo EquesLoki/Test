@@ -36,3 +36,13 @@ body:
       value: A clear and concise description of what you want to happen.
     validations:
       required: true  
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Are there any alternative to your AEP?
+      description: Provide the list of alternatives
+      placeholder: List the all!
+      value: A, B, C, D
+    validations:
+      required: true  
+
