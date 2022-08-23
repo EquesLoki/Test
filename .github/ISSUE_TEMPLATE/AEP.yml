@@ -27,3 +27,12 @@ body:
       value: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] or The current functionality does not allow me to [...]
     validations:
       required: true  
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like to reach
+      description: Explain what is the best or acceptable solution for you and your team
+      placeholder: What is it?
+      value: A clear and concise description of what you want to happen.
+    validations:
+      required: true  
