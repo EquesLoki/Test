@@ -44,13 +44,12 @@ body:
       placeholder: List them all!
     validations:
       required: true
-  - type: textarea
-    id: testers
+      
+ - type: checkboxes
+    id: Can this AEP be useful for other teams or domains?
     attributes:
-      label: Who will be participating in this AEP from your team?
-      description: Tell us the names of AVALaunch Alpha testers
-      placeholder: Provide email addresses
-      value: Give us email addresses of your voulenteers. Ex. yaroslav.zakahrov@raiffeisen.ua
-    validations:
-      required: true
-
+      label: Do you think someone else can benefit from it?
+      options:
+        - label: YES
+        - label: Not, it is only for my pleasure       
+        - label: I do not know
