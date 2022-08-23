@@ -45,4 +45,12 @@ body:
       value: A, B, C, D
     validations:
       required: true  
-
+  - type: textarea
+    id: testers
+    attributes:
+      label: Who will be participating in this AEP from your team?
+      description: Tell us the names of AVALaunch Alpha testers
+      placeholder: Provide email addresses
+      value: Give us email addresses of your volunteers. Ex. yaroslav.zakahrov@raiffeisen.ua
+    validations:
+      required: true  
