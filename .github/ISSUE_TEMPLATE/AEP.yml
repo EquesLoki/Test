@@ -60,5 +60,3 @@ body:
       label: Can this AEP be useful for other teams/domains?
       description: Do you think someone else can benefit from it?
       options:
-        - label: Not, it's only for my pleasure       
-        - label: I don't know
