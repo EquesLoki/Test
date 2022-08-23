@@ -44,7 +44,7 @@ body:
       placeholder: List them all!
     validations:
       required: true
- - type: textarea
+  - type: textarea
     id: testers
     attributes:
       label: Who will be participating in this AEP from your team?
@@ -53,7 +53,7 @@ body:
       value: Give us email addresses of your voulenteers. Ex. yaroslav.zakahrov@raiffeisen.ua
     validations:
       required: true   
- - type: checkboxes
+  - type: checkboxes
     id: Can this AEP be useful for other teams or domains?
     attributes:
       label: Do you think someone else can benefit from it?
