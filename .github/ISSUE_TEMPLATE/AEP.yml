@@ -10,15 +10,6 @@ body:
       value: |
         Please state your AEP below
   - type: textarea
-    id: proposal
-    attributes:
-      label: What is your enhancement or a feature request to the AVALaunch Platform?
-      description: Provide as many details to your AEP as possible
-      placeholder: Tell us what your AEP!
-      value: "I would like to suggest [...]" or "In order to achieve [...], I require [...]"
-    validations:
-      required: true
-  - type: textarea
     id: problem
     attributes:
       label: Is your AEP related to a problem? Please describe it
