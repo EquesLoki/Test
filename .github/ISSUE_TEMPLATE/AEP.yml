@@ -1,7 +1,7 @@
 name: AVALaunch Enhancement Proposal
 description: File an AEP
 title: "[AEP]: "
-labels: ["AEP", "enhancement"]
+labels: ["enhancement"]
 assignees:
   - octocat
 body:
